@@ -1,5 +1,8 @@
  
 
+
+
+
 /*
 EEEEEEEEEEEEEEEEEEEEEElllllll                                             
 E::::::::::::::::::::El:::::l                                             
@@ -20,16 +23,23 @@ EEEEEEEEEEEEEEEEEEEEEEllllllll    eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                                              
 */
 
-#cabecera{
-    position: relative;
+#foto{
+    position: absolute;
+    left:100%;
+    top: -20% ;
+   
+   
 }
- 
 
 img{
    border-radius: 40%;
 }
 
+ #cuerpo{
 
+   position: absolute;
+   right: 0%;
+   }
 
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
@@ -124,8 +134,6 @@ p:last-child { margin-bottom: 0; }
 }
 
 #tmMainNavToggle { display: none; }
-
-
 
 
 /*      
@@ -319,6 +327,7 @@ address { font-size: 1rem; }
 
 footer a { color: white; }
 
+
 /*
                                                                            
                                                bbbbbbbb                    
@@ -385,10 +394,6 @@ MMMMMMMM               MMMMMMMM   ooooooooooo   bbbbbbbbbbbbbbbb   iiiiiiii
 
 
 @media (max-width: 991px) {    
-
-    /*  Nav toggle
-        https://www.youtube.com/watch?v=uyT3NSHhke8
-    */
 
     .tm-main-row { position: relative; }
 

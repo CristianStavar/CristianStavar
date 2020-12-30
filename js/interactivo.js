@@ -81,45 +81,17 @@ var currentPageID = "#tm-section-1";
          
          $.backstretch("img/" + bgImg, {fade: 500});
 
-         // Setup Carousel, Nav, and Nav Toggle
+         // Setup  Nav, and Nav Toggle
         setupNav();
         setupNavToggle();
         setupFooter();
 
-        // Resize Carousel upon window resize
+        // Resize  upon window resize
         $(window).resize(function() {
             setupFooter();
         });
       }	      	
 });
-
-
-
-
-
-
-
-/*
-IIIIIIIIII                         tttt                                                  
-I::::::::I                      ttt:::t                                                  
-I::::::::I                      t:::::t                                                  
-II::::::II                      t:::::t                                                  
-  I::::Innnn  nnnnnnnn    ttttttt:::::ttttttt        eeeeeeeeeeee    rrrrr   rrrrrrrrr   
-  I::::In:::nn::::::::nn  t:::::::::::::::::t      ee::::::::::::ee  r::::rrr:::::::::r  
-  I::::In::::::::::::::nn t:::::::::::::::::t     e::::::eeeee:::::eer:::::::::::::::::r 
-  I::::Inn:::::::::::::::ntttttt:::::::tttttt    e::::::e     e:::::err::::::rrrrr::::::r
-  I::::I  n:::::nnnn:::::n      t:::::t          e:::::::eeeee::::::e r:::::r     r:::::r
-  I::::I  n::::n    n::::n      t:::::t          e:::::::::::::::::e  r:::::r     rrrrrrr
-  I::::I  n::::n    n::::n      t:::::t          e::::::eeeeeeeeeee   r:::::r            
-  I::::I  n::::n    n::::n      t:::::t    tttttte:::::::e            r:::::r            
-II::::::IIn::::n    n::::n      t::::::tttt:::::te::::::::e           r:::::r            
-I::::::::In::::n    n::::n      tt::::::::::::::t e::::::::eeeeeeee   r:::::r            
-I::::::::In::::n    n::::n        tt:::::::::::tt  ee:::::::::::::e   r:::::r            
-IIIIIIIIIInnnnnn    nnnnnn          ttttttttttt      eeeeeeeeeeeeee   rrrrrrr 
-
-Interactividad
-*/
-
 
 
 
