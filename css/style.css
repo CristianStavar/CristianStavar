@@ -1,79 +1,5 @@
  
 
-
- #cabecera{
-     position: relative;
- }
- #foto{
-     position: absolute;
-     left:100%;
-     top: -20% ;
-    
-    
- }
- 
-
-img{
-    border-radius: 40%;
-}
-
-  #gordo{
-
-    position: absolute;
-    right: 0%;
-    }
-
-    #DvideoFile{
-        position: absolute;
-    right: 5%;
-    }
-    
-    .DvideoArea{
-    position:relative;
-      width: 1014px;
-      height: 566px;   
-      border-radius: 30px; 
-      overflow: hidden;   
-      box-shadow: 0 0 3pt 2pt rgb(0, 0, 0);      
-  }
-
-  #cargarYu{
-    margin-bottom:  10px;
-  }
-
-  #my_file{
-      margin-bottom: 10px;
-  }
-
-
-    /* Create three equal columns that floats next to each other */
-    .columnB {
-        float: left;
-        width: 50%;
-        padding: 10px;
-        margin-top: 10px;
-        margin-left: 0px;
-
-        
-        border-radius: 40px; 
-        overflow: hidden;   
-            
-    
-    }
-    
-    /* Clear floats after the columns */
-    .rowB:after {
-        content: "";
-        display: table;
-        clear: both;
-
-        
-    }
-    * {
-        box-sizing: border-box;
-      }
-
-
 /*
 EEEEEEEEEEEEEEEEEEEEEElllllll                                             
 E::::::::::::::::::::El:::::l                                             
@@ -94,40 +20,13 @@ EEEEEEEEEEEEEEEEEEEEEEllllllll    eeeeeeeeeeeeee  mmmmmm   mmmmmm   mmmmmm
                                                              
 */
 
-/* Steel */
-.box1{
-	position: absolute;
-	
-	width: 380px;
-	height: 45px; 
-	top: 190px;
-	left: 460px;
-    cursor: pointer;
-    display: none;
-
-    border-radius: 30px; 
-      overflow: hidden; 
-      box-shadow: 0 0 3pt 2pt rgb(0, 0, 0); 
+#cabecera{
+    position: relative;
 }
-/* Feathers */
-.box2{
-	position: absolute;
-	
-	width: 400px;
-	height: 45px;
-	top: 250px;
-	left: 460px;
-    cursor: pointer;
-    display: none;
+ 
 
-    border-radius: 30px; 
-      overflow: hidden; 
-      box-shadow: 0 0 3pt 2pt rgb(0, 0, 0); 
-}
-
-.lightbox{
-	display: none
-
+img{
+   border-radius: 40%;
 }
 
 
@@ -291,10 +190,9 @@ S:::::::::::::::SS i::::::i  d:::::::::ddd::::d  ee:::::::::::::e  b::::::::::::
 }
 /* Iconos */
 .tm-nav-fa-icon {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: 1px solid white;
+    width: 10px;
+    height: 10px;
+
     padding: 8px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -421,6 +319,27 @@ address { font-size: 1rem; }
 
 footer a { color: white; }
 
+/*
+                                                                           
+                                               bbbbbbbb                    
+MMMMMMMM               MMMMMMMM                b::::::b              iiii  
+M:::::::M             M:::::::M                b::::::b             i::::i 
+M::::::::M           M::::::::M                b::::::b              iiii  
+M:::::::::M         M:::::::::M                 b:::::b                    
+M::::::::::M       M::::::::::M   ooooooooooo   b:::::bbbbbbbbb    iiiiiii 
+M:::::::::::M     M:::::::::::M oo:::::::::::oo b::::::::::::::bb  i:::::i 
+M:::::::M::::M   M::::M:::::::Mo:::::::::::::::ob::::::::::::::::b  i::::i 
+M::::::M M::::M M::::M M::::::Mo:::::ooooo:::::ob:::::bbbbb:::::::b i::::i 
+M::::::M  M::::M::::M  M::::::Mo::::o     o::::ob:::::b    b::::::b i::::i 
+M::::::M   M:::::::M   M::::::Mo::::o     o::::ob:::::b     b:::::b i::::i 
+M::::::M    M:::::M    M::::::Mo::::o     o::::ob:::::b     b:::::b i::::i 
+M::::::M     MMMMM     M::::::Mo::::o     o::::ob:::::b     b:::::b i::::i 
+M::::::M               M::::::Mo:::::ooooo:::::ob:::::bbbbbb::::::bi::::::i
+M::::::M               M::::::Mo:::::::::::::::ob::::::::::::::::b i::::::i
+M::::::M               M::::::M oo:::::::::::oo b:::::::::::::::b  i::::::i
+MMMMMMMM               MMMMMMMM   ooooooooooo   bbbbbbbbbbbbbbbb   iiiiiiii
+*/
+
 @media (max-width: 1800px) {
   .tm-section { margin-right: auto; }
 }
@@ -462,26 +381,7 @@ footer a { color: white; }
       margin-bottom: 30px;
   }
 }
-/*
-                                                                           
-                                               bbbbbbbb                    
-MMMMMMMM               MMMMMMMM                b::::::b              iiii  
-M:::::::M             M:::::::M                b::::::b             i::::i 
-M::::::::M           M::::::::M                b::::::b              iiii  
-M:::::::::M         M:::::::::M                 b:::::b                    
-M::::::::::M       M::::::::::M   ooooooooooo   b:::::bbbbbbbbb    iiiiiii 
-M:::::::::::M     M:::::::::::M oo:::::::::::oo b::::::::::::::bb  i:::::i 
-M:::::::M::::M   M::::M:::::::Mo:::::::::::::::ob::::::::::::::::b  i::::i 
-M::::::M M::::M M::::M M::::::Mo:::::ooooo:::::ob:::::bbbbb:::::::b i::::i 
-M::::::M  M::::M::::M  M::::::Mo::::o     o::::ob:::::b    b::::::b i::::i 
-M::::::M   M:::::::M   M::::::Mo::::o     o::::ob:::::b     b:::::b i::::i 
-M::::::M    M:::::M    M::::::Mo::::o     o::::ob:::::b     b:::::b i::::i 
-M::::::M     MMMMM     M::::::Mo::::o     o::::ob:::::b     b:::::b i::::i 
-M::::::M               M::::::Mo:::::ooooo:::::ob:::::bbbbbb::::::bi::::::i
-M::::::M               M::::::Mo:::::::::::::::ob::::::::::::::::b i::::::i
-M::::::M               M::::::M oo:::::::::::oo b:::::::::::::::b  i::::::i
-MMMMMMMM               MMMMMMMM   ooooooooooo   bbbbbbbbbbbbbbbb   iiiiiiii
-*/
+
 
 
 @media (max-width: 991px) {    
